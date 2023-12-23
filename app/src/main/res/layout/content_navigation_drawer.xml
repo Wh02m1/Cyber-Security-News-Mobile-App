@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#304769"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEWS FEED"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/white"
+            android:id="@+id/app_title"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:id="@+id/horizontal_buttons">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_1"
+                    android:layout_margin="6dp"
+                    android:text="Cyber Attack"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_2"
+                    android:layout_margin="6dp"
+                    android:text="CVE"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_3"
+                    android:layout_margin="6dp"
+                    android:text="Malware"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_4"
+                    android:layout_margin="6dp"
+                    android:text="Phishing"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_5"
+                    android:layout_margin="6dp"
+                    android:text="Encryption"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_6"
+                    android:layout_margin="6dp"
+                    android:text="Firewall"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_7"
+                    android:layout_margin="6dp"
+                    android:text="Zero-Day Exploits"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_8"
+                    android:layout_margin="6dp"
+                    android:text="Penetration Testing"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_9"
+                    android:layout_margin="6dp"
+                    android:text="IoT Security"
+                    android:background="#3F51B5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_10"
+                    android:layout_margin="6dp"
+                    android:text="Hacking"
+                    android:background="#3F51B5"/>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_recycler_view"/>
+
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="Account Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_2"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_Service"
+            android:icon="@drawable/baseline_electrical_services_24"
+            android:title="Running App Service" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/not_available"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/not_available"
+                android:title="Send Us a Message" />
+        </menu>
+    </item>
+</menu>
