@@ -1,8 +1,6 @@
 # Cyber-Security-News-Mobile-App
 
 
-![App Logo](link_to_your_logo.png)
-
 ## Overview
 
 This mobile app provides users with the latest cybersecurity news using the [News API](https://newsapi.org/). Additionally, it includes a secure authentication system using Firebase for user registration and login.
