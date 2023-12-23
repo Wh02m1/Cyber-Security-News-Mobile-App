@@ -1,6 +1,5 @@
 # Cyber-Security-News-Mobile-App
 
-# Cybersecurity News Mobile App
 
 ![App Logo](link_to_your_logo.png)
 
