@@ -26,7 +26,7 @@ This mobile app provides users with the latest cybersecurity news using the [New
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/cybersecurity-news-app.git
+   git clone https://github.com/Wh02m1/cybersecurity-news-app.git
 
 2. Link Firebase to the project
 3. Get Api key from https://newsapi.org/ and add it to the this Line in the **main_activity.java**
